@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-Console.SetCursosPosition(10, 4);
+Console.SetCursorPosition(10, 4);
 Console.WriteLine("+");
 
 int xa = 1;
@@ -7,18 +7,18 @@ int ya = 1;
 int xb = 1;
 int yb = 30;
 int xc = 80;
-int yc = 30;
+int yc = 60;
 
-Console.SetCursosPosition(xa, ya);
+Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
 
-Console.SetCursosPosition(xb, yb);
+Console.SetCursorPosition(xb, yb);
 Console.WriteLine("+");
 
-Console.SetCursosPosition(xc, yc);
+Console.SetCursorPosition(xc, yc);
 Console.WriteLine("+");
 
-int x = (xa) y = xb;
+int x = xa, y = xb;
 
 int count = 0;
 while(count < 10000);
@@ -42,7 +42,7 @@ while(count < 10000);
         y = (y + yc) / 2;
     }
 
-    Console.SetCursosPosition(x, y);
+    Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
     count = count + 1;
 }
